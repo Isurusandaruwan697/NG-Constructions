@@ -123,11 +123,12 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Orange;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button5.Location = new System.Drawing.Point(58, 160);
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(58, 162);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(172, 35);
             this.button5.TabIndex = 11;
-            this.button5.Text = "DASHBORD";
+            this.button5.Text = "DASHBOARD";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -135,11 +136,12 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Orange;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(58, 284);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(172, 35);
             this.button1.TabIndex = 20;
-            this.button1.Text = "STOCKS";
+            this.button1.Text = "STOCK";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -147,11 +149,12 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Orange;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(58, 222);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(172, 35);
             this.button2.TabIndex = 11;
-            this.button2.Text = "SUPPLYERS";
+            this.button2.Text = "SUPPLIERS";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -159,11 +162,12 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Orange;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(58, 345);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(172, 35);
             this.button3.TabIndex = 11;
-            this.button3.Text = "EMPOYEE";
+            this.button3.Text = "EMPLOYEE";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -171,6 +175,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Orange;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(58, 405);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(172, 35);
@@ -183,6 +188,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Orange;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(58, 468);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(172, 35);
@@ -195,6 +201,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Orange;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button7.Location = new System.Drawing.Point(58, 716);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(172, 35);
@@ -274,9 +281,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(30, 19);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(232, 29);
+            this.label6.Size = new System.Drawing.Size(248, 29);
             this.label6.TabIndex = 4;
-            this.label6.Text = "USER DASHBORD";
+            this.label6.Text = "USER DASHBOARD";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel9
@@ -402,9 +409,9 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(45, 180);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(186, 27);
+            this.label3.Size = new System.Drawing.Size(178, 27);
             this.label3.TabIndex = 99;
-            this.label3.Text = "SUPPLYER STATE";
+            this.label3.Text = "SUPPLIER STATE";
             // 
             // label8
             // 

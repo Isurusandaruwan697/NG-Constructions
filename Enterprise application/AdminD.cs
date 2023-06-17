@@ -74,7 +74,9 @@ namespace Enterprise_application
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Form2 se_form = new Form2();
+            se_form.Show();
+            this.Hide();
         }
 
         private void button8_Click(object sender, EventArgs e)

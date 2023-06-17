@@ -56,6 +56,7 @@
             // 
             this.LOGIN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.LOGIN.BackColor = System.Drawing.Color.DarkOrange;
+            this.LOGIN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LOGIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LOGIN.Location = new System.Drawing.Point(246, 449);
             this.LOGIN.Name = "LOGIN";
